@@ -8,7 +8,7 @@ import {
   Legend,
   ResponsiveContainer,
 } from "recharts";
-import mqtt from "mqtt/browser";
+import mqtt from "mqtt/dist/mqtt.esm.js";
 
 export default function RealTimeSensor() {
   const [data, setData] = useState([]);
@@ -27,13 +27,13 @@ export default function RealTimeSensor() {
       client.subscribe("jaeseok");
     });
 
-    client.on("message", (topic, message) => {
+    client.on("message", (_, message) => {
       try {
         const msg = JSON.parse(message.toString());
         msg.created_at = new Date().toLocaleTimeString();
         setData((prev) => [...prev.slice(-49), msg]);
       } catch (e) {
-        console.error("JSON parse error:", e);
+        console.error(e);
       }
     });
 
@@ -49,9 +49,9 @@ export default function RealTimeSensor() {
           <YAxis />
           <Tooltip />
           <Legend />
-          <Line type="monotone" dataKey="ax" stroke="#ff0000" dot={false} />
-          <Line type="monotone" dataKey="ay" stroke="#00ff00" dot={false} />
-          <Line type="monotone" dataKey="az" stroke="#0000ff" dot={false} />
+          <Line dataKey="ax" stroke="#ff0000" dot={false} />
+          <Line dataKey="ay" stroke="#00ff00" dot={false} />
+          <Line dataKey="az" stroke="#0000ff" dot={false} />
         </LineChart>
       </ResponsiveContainer>
     </div>
