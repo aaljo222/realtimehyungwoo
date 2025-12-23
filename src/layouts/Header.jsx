@@ -19,7 +19,6 @@ const Header = () => {
     setNavOpen((prev) => !prev);
   };
 
-
   return (
     // 헤더 전체를 sticky로
     <div className="sticky top-0 z-[100] w-full">
@@ -35,7 +34,9 @@ const Header = () => {
             <img src={logo} alt="로고" className="h-10" />
           </button>
 
-          <div><a href="http://localhost:3001">{user.role}</a></div>
+          <div>
+            <a href="hhttps://realtimehyungwoo-2spn.vercel.app">{user.role}</a>
+          </div>
 
           {/* 로그인 / 회원가입 */}
           <div className="flex items-center gap-4">
@@ -47,7 +48,7 @@ const Header = () => {
           </div>
         </div>
       </div>
-            
+
       {/* 🔹 2줄차 네비게이션(사이트맵 스타일) */}
       {user.role === "GUEST" ? (
         <div />

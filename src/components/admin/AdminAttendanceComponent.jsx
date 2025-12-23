@@ -4,12 +4,15 @@ import AdminSelectedContext from "./AdminSelectContext";
 
 const AdminAttendanceComponent = () => {
   const [bookList, setBookList] = useState([]);
-  const { selectedBookIsbn, setSelectedBookIsbn } = useContext(AdminSelectedContext);
+  const { selectedBookIsbn, setSelectedBookIsbn } =
+    useContext(AdminSelectedContext);
 
   useEffect(() => {
     const getList = async () => {
       try {
-        const { data } = await axios.get('http://localhost:8080/list');
+        const { data } = await axios.get(
+          "https://realtimehyungwoo-2spn.vercel.app/list"
+        );
         setBookList(data);
       } catch (error) {
         console.error(error);
@@ -22,10 +25,7 @@ const AdminAttendanceComponent = () => {
     setSelectedBookIsbn(isbn);
   };
 
-  return (
-    <div className="table-responsive">
-    </div>
-  );
+  return <div className="table-responsive"></div>;
 };
 
 export default AdminAttendanceComponent;
