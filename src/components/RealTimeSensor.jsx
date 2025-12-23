@@ -8,7 +8,7 @@ import {
   Legend,
   ResponsiveContainer,
 } from "recharts";
-import mqtt from "mqtt/dist/mqtt.esm.js";
+import mqtt from "mqtt"; // ✅ 핵심 수정
 
 export default function RealTimeSensor() {
   const [data, setData] = useState([]);
@@ -19,6 +19,7 @@ export default function RealTimeSensor() {
       {
         username: "green1234",
         password: "green1234A",
+        protocol: "wss",
       }
     );
 
