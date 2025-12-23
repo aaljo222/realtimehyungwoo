@@ -1,0 +1,127 @@
+{
+  "colleges": [
+    {
+      "name": "일반대학원",
+      "image": "https://www.yonsei.ac.kr/sites/sc/atchmnfl/shortcut/4/temp_1743054911565101.jpg",
+      "description": "그린대학교 일반 대학원은 창의적 연구와 학문적 성장을 추구하는 글로벌 교육기관이다. 우수한 교수진과 첨단 연구 시설을 갖추고 국제 협력을 통해 전문성을 강화한다. 체계적인 교육과 연구 지원을 바탕으로 학문과 사회에 기여하는 인재를 양성하며, 미래를 선도할 연구자로 성장할 수 있도록 돕는다.",
+      "location": "스팀슨관 2층",
+      "phone": "02)2123-8458~9",
+      "departments": []
+    },
+
+    {
+      "name": "전문대학원",
+      "image": "https://www.yonsei.ac.kr/sites/sc/atchmnfl/shortcut/4/temp_1743055001605100.jpg",
+      "description": "그린대학교 전문 대학원은 실무 중심의 심화 교육을 통해 각 분야의 전문가를 양성하는 교육기관이다. 산업과 학문의 연계를 강화하여 최신 트렌드와 실용적 지식을 제공한다. 글로벌 경쟁력을 갖춘 인재를 배출하며, 현장 적용이 가능한 교육을 지원한다.",
+      "location": "",
+      "phone": "",
+      "departments": [
+        {
+          "name": "연합신학대학원",
+          "officeLocation": "신학관",
+          "phone": "02)2123-3243~5"
+        },
+        {
+          "name": "국제학대학원",
+          "officeLocation": "새천년관 510호",
+          "phone": "02)2123-3291~3"
+        },
+        {
+          "name": "정보대학원",
+          "officeLocation": "새천년관 412호",
+          "phone": "02)2123-4187~8"
+        },
+        {
+          "name": "커뮤니케이션대학원",
+          "officeLocation": "성암관 201호",
+          "phone": "02)2123-3443~5"
+        },
+        {
+          "name": "사회복지대학원",
+          "officeLocation": "아펜젤러관 102호",
+          "phone": "02)2123-6203~4"
+        },
+        {
+          "name": "경영전문대학원",
+          "officeLocation": "경영관 406호",
+          "phone": "02)2123-5454"
+        },
+        {
+          "name": "법학전문대학원",
+          "officeLocation": "광복관",
+          "phone": "02)2123-3801~2"
+        },
+        {
+          "name": "융합보건의료대학원",
+          "officeLocation": "의료원 종합관",
+          "phone": "02)2228-1502"
+        }
+      ]
+    },
+
+    {
+      "name": "특수대학원",
+      "image": "https://www.yonsei.ac.kr/sites/sc/atchmnfl/shortcut/4/temp_1743055022576100.jpg",
+      "description": "그린대학교 특수대학원은 다양한 분야의 전문 지식과 실무 능력을 함양하기 위해 설립된 교육기관이다. 교육대학원, 행정대학원, 공학대학원, 보건대학원 등에서 각 분야의 심화 교육과정을 제공하여, 재직자와 전문직 종사자가 학업과 경력을 병행하며 전문성을 강화할 수 있도록 지원한다.",
+      "location": "",
+      "phone": "",
+      "departments": [
+        {
+          "name": "교육대학원",
+          "officeLocation": "교육과학관 205호",
+          "phone": "02)2123-3262~5"
+        },
+        {
+          "name": "행정대학원",
+          "officeLocation": "연희관 219호",
+          "phone": "02)2123-3272~3"
+        },
+        {
+          "name": "공학대학원",
+          "officeLocation": "제1공학관 316호",
+          "phone": "02)2123-3282~3"
+        },
+        {
+          "name": "보건대학원",
+          "officeLocation": "의료원 종합관",
+          "phone": "02)2228-1503~8"
+        },
+        {
+          "name": "언론홍보대학원",
+          "officeLocation": "빌링슬리관 205호",
+          "phone": "02)2123-3298~3300"
+        },
+        {
+          "name": "법무대학원",
+          "officeLocation": "광복관",
+          "phone": "02)2123-3803~4"
+        },
+        {
+          "name": "생활환경대학원",
+          "officeLocation": "삼성관",
+          "phone": "02)2123-3912"
+        },
+        {
+          "name": "경제대학원",
+          "officeLocation": "대우관 본관",
+          "phone": "02)2123-4174~5"
+        },
+        {
+          "name": "간호대학원",
+          "officeLocation": "간호대학",
+          "phone": "02)2228-3237"
+        },
+        {
+          "name": "심리과학이노베이션대학원",
+          "officeLocation": "이윤재관",
+          "phone": "02)2123-7504"
+        },
+        {
+          "name": "인공지능융합대학원",
+          "officeLocation": "공학원 153호",
+          "phone": "02)2123-5679"
+        }
+      ]
+    }
+  ]
+}

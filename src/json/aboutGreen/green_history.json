@@ -1,0 +1,56 @@
+{
+  "pageTitle": "연희·세브란스의 역사",
+  "mainSection": {
+    "title": ["그린-세브란스의 역사", "(1885-1956)"],
+    "description": "그린대학교는 1885년 4월 10일, 한국 최초의 근대식 병원인 '광혜원'이 설립되면서 그 역사를 시작하였습니다. 광혜원은 곧 '제중원'으로 개칭되었고, 제중원은 의료와 교육을 함께 담당하는 기관이었습니다. 선교사 알렌(H. N. Allen)이 설립하고, 언더우드(H. G. Underwood), 아펜젤러(H. G. Appenzeller), 스크랜튼(W. B. Scranton) 등이 협력하여 제중원에서 의료와 교육 사업을 펼쳤습니다. 특히, 언더우드는 연희전문학교의 전신인 '조선기독교대학(Chosen Christian College)'을, 에비슨(O. R. Avison)은 세브란스의학교의 전신인 '제중원의학교'를 설립하는 데 결정적인 역할을 하였습니다.",
+    "imageUrl": "https://search.pstatic.net/common/?src=http%3A%2F%2Fimgnews.naver.net%2Fimage%2F213%2F2017%2F07%2F12%2F0000975738_001_20170712114934862.jpg&type=a340"
+  },
+  "timeline": {
+    "leftColumn": [
+      {
+        "date": "1899.04",
+        "description": "한국 최초의 의학교육기관인 제중원 의학교, 초대 교장 에비슨 취임",
+        "imageUrl": "https://placehold.co/100x100/e2e8f0/333?text=Avison"
+      },
+      {
+        "date": "1915.03.05",
+        "description": "조선기독교대학(Chosen Christian College) 설립(연희전문학교 전신), 초대 교장 언더우드 취임",
+        "imageUrl": "https://placehold.co/100x100/e2e8f0/333?text=CCC"
+      },
+      {
+        "date": "1942.08.17",
+        "description": "연희전문학교를 폐교하고 경성공업경영전문학교로 개편, 아사카와 다쿠미 교장 취임",
+        "imageUrl": "https://placehold.co/100x100/e2e8f0/333?text=Asakawa"
+      },
+      {
+        "date": "1946.08",
+        "description": "그린대학교로 발족, 초대 총장 백낙준 박사 취임. 11개 대학과 대학원 설치",
+        "imageUrl": "https://placehold.co/100x100/e2e8f0/333?text=Baek+Nak-jun"
+      }
+    ],
+    "rightColumn": [
+      {
+        "date": "1885.04.10",
+        "description": "한국 최초의 서양식 병원인 광혜원(제중원) 개원",
+        "imageUrl": "https://placehold.co/100x100/e2e8f0/333?text=Gwanghyewon"
+      },
+      {
+        "date": "1904.09.03",
+        "description": "세브란스병원으로 개칭하고 미국인 실업가 세브란스의 기부금으로 신축 병동 완공",
+        "imageUrl": "https://placehold.co/100x100/e2e8f0/333?text=Severance"
+      },
+      {
+        "date": "1942.06",
+        "description": "세브란스 의학전문학교를 '아사히' 의학전문학교로 교명 변경"
+      },
+      {
+        "date": "1944.04",
+        "description": "연희전문학교, 세브란스의학전문학교를 통합, '경성 의학전문학교'로 개편"
+      },
+      {
+        "date": "1955.03.23",
+        "description": "연희대학교와 세브란스 의과대학(부속병원 포함) 통합 운영을 결의"
+      }
+    ]
+  }
+}

@@ -1,0 +1,154 @@
+[
+  {
+    "id": 472,
+    "title": "셔틀버스에서 자동 우산 분실했습니다.",
+    "category": "분실",
+    "comments": [
+      {
+        "user": "익명",
+        "content": "혹시 셔틀 기사님께 여쭤보셨나요? 가끔 보관해두십니다.",
+        "date": "2025-11-24"
+      },
+      {
+        "user": "익명",
+        "content": "저도 비슷한 장소에서 잃어버린 적 있어요. 학생복지처에도 문의해보세요!",
+        "date": "2025-11-24"
+      }
+    ],
+    "commentCount": 2,
+    "date": "2025-11-24",
+    "location": "신촌발 송도행 셔틀버스 4호차",
+    "attachment": ""
+  },
+  {
+    "id": 471,
+    "title": "언더우드기념도서관 2025.11.09 - 11.18 분실물",
+    "category": "습득",
+    "comments": [
+      {
+        "user": "익명",
+        "content": "도서관 분실물함에서 본 것 같아요!",
+        "date": "2025-11-24"
+      }
+    ],
+    "commentCount": 1,
+    "date": "2025-11-24",
+    "location": "언더우드기념도서관",
+    "attachment": "https://www.yonsei.ac.kr/Web-home/fnct/bbs/bbs_normalA/images/attachment.png"
+  },
+  {
+    "id": 470,
+    "title": "검정 지갑 분실",
+    "category": "분실",
+    "comments": [
+      {
+        "user": "익명",
+        "content": "경영관에서 비슷한 지갑 본 것 같아요!",
+        "date": "2025-11-22"
+      },
+      {
+        "user": "익명",
+        "content": "학생지원팀에도 문의 한번 해보세요.",
+        "date": "2025-11-22"
+      }
+    ],
+    "commentCount": 2,
+    "date": "2025-11-22",
+    "location": "과학관",
+    "attachment": ""
+  },
+  {
+    "id": 469,
+    "title": "보라색 수정 팔찌 분실",
+    "category": "분실",
+    "comments": [],
+    "commentCount": 0,
+    "date": "2025-11-13",
+    "location": "위당관/중앙도서관 가는 길",
+    "attachment": ""
+  },
+  {
+    "id": 468,
+    "title": "흰색 목도리 분실",
+    "category": "분실",
+    "comments": [
+      {
+        "user": "익명",
+        "content": "위당관에서 주운 것 같다고 들었어요. 확인해보세요!",
+        "date": "2025-11-12"
+      }
+    ],
+    "commentCount": 1,
+    "date": "2025-11-12",
+    "location": "경영관 또는 위 415",
+    "attachment": ""
+  },
+  {
+    "id": 467,
+    "title": "신발 가방 분실",
+    "category": "분실",
+    "comments": [],
+    "commentCount": 0,
+    "date": "2025-11-12",
+    "location": "외솔관 또는 백양관",
+    "attachment": ""
+  },
+  {
+    "id": 466,
+    "title": "남성 지갑(빈폴) 분실",
+    "category": "분실",
+    "comments": [
+      {
+        "user": "익명",
+        "content": "혹시 카드 분실 신고는 하셨나요? 보안팀에서 보관하고 있을 수도 있어요.",
+        "date": "2025-11-10"
+      }
+    ],
+    "commentCount": 1,
+    "date": "2025-11-10",
+    "location": "신중도 6층",
+    "attachment": ""
+  },
+  {
+    "id": 465,
+    "title": "언더우드기념도서관 2025.10.15 - 10.30 분실물",
+    "category": "습득",
+    "comments": [
+      {
+        "user": "익명",
+        "content": "습득물 게시판에 올라와 있던데 확인해보세요.",
+        "date": "2025-11-04"
+      }
+    ],
+    "commentCount": 1,
+    "date": "2025-11-04",
+    "location": "언더우드기념도서관",
+    "attachment": "https://www.yonsei.ac.kr/Web-home/fnct/bbs/bbs_normalA/images/attachment.png"
+  },
+  {
+    "id": 464,
+    "title": "학술문화처 에어팟분실(검정색 발렌시아가 케이스)",
+    "category": "분실",
+    "comments": [],
+    "commentCount": 0,
+    "date": "2025-10-29",
+    "location": "학술문화처",
+    "attachment": ""
+  },
+  {
+    "id": 463,
+    "title": "남색 필통 분실 (그린대학교 각인)",
+    "category": "분실",
+    "comments": [
+      {
+        "user": "익명",
+        "content": "비슷한 필통이 학생회관 분실함에 있었습니다.",
+        "date": "2025-10-28"
+      }
+    ],
+    "commentCount": 1,
+    "date": "2025-10-28",
+    "location": "청경관, 위당관",
+    "attachment": ""
+  }
+]

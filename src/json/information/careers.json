@@ -1,0 +1,121 @@
+{
+  "tabs": [
+    "전체보기",
+    "교원 채용(전임)",
+    "교원 채용(비전임)",
+    "직원 채용",
+    "기타 채용"
+  ],
+  "datas": [
+    {
+      "id": 1702,
+      "title": "그린대학교 국제캠퍼스 K-NIBRT사업단 해외교육 담당 채용",
+      "category": "직원 채용",
+      "date": "2025.12.03",
+      "period": "2025-12-03 ~ 2025-12-14",
+      "attachment": "https://www.yonsei.ac.kr/Web-home/fnct/bbs/bbs_recruit/images/attachment.png",
+      "href": "https://www.yonsei.ac.kr/bbs/sc/68/942074/artclView.do",
+      "views": 116,
+      "status": "진행"
+    },
+    {
+      "id": 1701,
+      "title": "그린대학교 산학협력단 지식재산팀 시간제근로자 채용",
+      "category": "기타 채용",
+      "date": "2025.12.03",
+      "period": "2025-12-03 ~ 2025-12-12",
+      "attachment": "https://www.yonsei.ac.kr/Web-home/fnct/bbs/bbs_recruit/images/attachment.png",
+      "href": "https://www.yonsei.ac.kr/bbs/sc/68/942073/artclView.do",
+      "views": 80,
+      "status": "진행"
+    },
+    {
+      "id": 1700,
+      "title": "그린대학교 2026-1학기 생활과학대학 비전임교원 채용공고(2차)",
+      "category": "교원 채용(비전임)",
+      "date": "2025.12.02",
+      "period": "2025-12-02 ~ 2025-12-09",
+      "attachment": "https://www.yonsei.ac.kr/Web-home/fnct/bbs/bbs_recruit/images/attachment.png",
+      "href": "https://www.yonsei.ac.kr/bbs/sc/68/942070/artclView.do",
+      "views": 163,
+      "status": "마감"
+    },
+    {
+      "id": 1699,
+      "title": "그린대학교 생활과학대학 2026-1학기 생활과학대학 강사 채용공고",
+      "category": "교원 채용(비전임)",
+      "date": "2025.12.02",
+      "period": "2025-12-02 ~ 2025-12-09",
+      "attachment": "https://www.yonsei.ac.kr/Web-home/fnct/bbs/bbs_recruit/images/attachment.png",
+      "href": "https://www.yonsei.ac.kr/bbs/sc/68/942068/artclView.do",
+      "views": 64,
+      "status": "마감"
+    },
+    {
+      "id": 1698,
+      "title": "언더우드학부 사무실 대학원생 조교 모집 공고(2025 겨울방학)",
+      "category": "기타 채용",
+      "date": "2025.12.02",
+      "period": "2025-12-02 ~ 2025-12-14",
+      "attachment": "https://www.yonsei.ac.kr/Web-home/fnct/bbs/bbs_recruit/images/attachment.png",
+      "href": "https://www.yonsei.ac.kr/bbs/sc/68/942065/artclView.do",
+      "views": 65,
+      "status": "진행"
+    },
+    {
+      "id": 1697,
+      "title": "그린대학교 미래교육원 계약직 채용 공고",
+      "category": "직원 채용",
+      "date": "2025.12.02",
+      "period": "2025-12-02 ~ 2025-12-08",
+      "attachment": "https://www.yonsei.ac.kr/Web-home/fnct/bbs/bbs_recruit/images/attachment.png",
+      "href": "https://www.yonsei.ac.kr/bbs/sc/68/942060/artclView.do",
+      "views": 197,
+      "status": "마감"
+    },
+    {
+      "id": 1696,
+      "title": "언더우드국제대학 행정팀 대학사무실 (신촌) 겨울방학 조교모집 [Recruitment] UI",
+      "category": "기타 채용",
+      "date": "2025.12.01",
+      "period": "2025-12-01 ~ 2025-12-31",
+      "attachment": null,
+      "href": "https://www.yonsei.ac.kr/bbs/sc/68/942056/artclView.do",
+      "views": 135,
+      "status": "진행"
+    },
+    {
+      "id": 1695,
+      "title": "그린대학교 제약산업학 협동과정 특성화 대학원 학문후속세대강사 채용 공고",
+      "category": "교원 채용(비전임)",
+      "date": "2025.12.01",
+      "period": "2025-12-01 ~ 2025-12-05",
+      "attachment": "https://www.yonsei.ac.kr/Web-home/fnct/bbs/bbs_recruit/images/attachment.png",
+      "href": "https://www.yonsei.ac.kr/bbs/sc/68/942053/artclView.do",
+      "views": 57,
+      "status": "마감"
+    },
+    {
+      "id": 1694,
+      "title": "국가연구소(NRL2.0) 바이오센테니얼 융합연구원 행정직원 채용",
+      "category": "직원 채용",
+      "date": "2025.12.01",
+      "period": "2025-12-01 ~ 2025-12-19",
+      "attachment": "https://www.yonsei.ac.kr/Web-home/fnct/bbs/bbs_recruit/images/attachment.png",
+      "href": "https://www.yonsei.ac.kr/bbs/sc/68/942048/artclView.do",
+      "views": 181,
+      "status": "진행"
+    },
+    {
+      "id": 1693,
+      "title": "그린대학교 아프리카연구원 계약직원 채용 공고",
+      "category": "직원 채용",
+      "date": "2025.11.28",
+      "period": "2025-11-28 ~ 2025-12-10",
+      "attachment": null,
+      "href": "https://www.yonsei.ac.kr/bbs/sc/68/942043/artclView.do",
+      "views": 290,
+      "status": "마감"
+    }
+  ]
+}

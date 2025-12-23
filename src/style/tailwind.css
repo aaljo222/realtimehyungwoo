@@ -1,0 +1,36 @@
+
+  /* 반시계 등장 + 이후 흔들림 */
+  .reveal-ccw {
+    /* 0~var(--s)까지는 투명, 나머지는 보이게 (conic-gradient 마스크) */
+    --s: 360deg;
+    -webkit-mask: conic-gradient(from 0deg at 50% 50%, transparent 0 var(--s), #000 var(--s) 360deg);
+            mask: conic-gradient(from 0deg at 50% 50%, transparent 0 var(--s), #000 var(--s) 360deg);
+    animation:
+      ccwReveal 10s cubic-bezier(.2,.65,.2,1) forwards,  /* 반시계로 나타남 */
+      wobble    11s ease-in-out 1.1s infinite;            /* 이후 흔들림 반복 */
+    will-change: transform, mask;
+  }
+
+  @keyframes ccwReveal { to { --s: 0deg; } }
+
+  @keyframes wobble {
+    0%   { transform: rotate(0)       scale(1);    color:aqua;}
+    15%  { transform: rotate(-3deg)   scale(1.02); color:aqua;}
+    30%  { transform: rotate(2.2deg)  scale(1);    color:aqua;}
+    45%  { transform: rotate(-1.5deg) scale(1.01); color:aqua;}
+    60%  { transform: rotate(1deg)    scale(1);    color:aqua;}
+    100% { transform: rotate(0)       scale(1);    color:aqua;}
+  }
+@keyframes spin-reverse {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(-360deg); /* 반시계 방향 */
+  }
+}
+
+.spin-reverse {
+  animation: spin-reverse 20s linear infinite;
+  transform-origin: center;
+}

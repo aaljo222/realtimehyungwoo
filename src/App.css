@@ -1,0 +1,65 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+/* 1) 커스텀 속성 타입 등록: 각도로 보간 가능하게! */
+@property --s {
+  syntax: '<angle>';
+  inherits: false;
+  initial-value: 360deg;
+}
+
+/* 2) 유틸리티 */
+.reveal-ccw {
+  --dur: 1.1s; /* 필요하면 여기서 전체 시간을 바꿔도 됨 */
+
+  /* 마스크: 0~var(--s)까지는 투명, 나머지 보임 */
+  -webkit-mask: conic-gradient(from 0deg at 50% 50%, transparent 0 var(--s), #000 var(--s) 360deg);
+          mask: conic-gradient(from 0deg at 50% 50%, transparent 0 var(--s), #000 var(--s) 360deg);
+
+  /* 애니메이션: 등장 후 흔들림. 흔들림 시작 지연 = 등장 시간과 동일 */
+  animation:
+    ccwReveal var(--dur) cubic-bezier(.2,.65,.2,1) forwards,
+    wobble    2.4s ease-in-out var(--dur) infinite;
+
+  will-change: transform, mask;
+}
+
+/* 3) 키프레임 */
+@keyframes ccwReveal { 
+  from { --s: 360deg; }
+  to   { --s: 0deg;   }
+}
+
+@keyframes wobble{
+  0%   { transform: rotate(0)       scale(1);    }
+  15%  { transform: rotate(-3deg)   scale(1.02); }
+  30%  { transform: rotate(2.2deg)  scale(1);    }
+  45%  { transform: rotate(-1.5deg) scale(1.01); }
+  60%  { transform: rotate(1deg)    scale(1);    }
+  100% { transform: rotate(0)       scale(1);    }
+}

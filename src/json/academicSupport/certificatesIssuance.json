@@ -1,0 +1,129 @@
+{
+  "tabs": [
+    "등록금납입증명서",
+    "휴학 증명서",
+    "성적 증명서",
+    "재학(휴학) 증명서",
+    "수료 증명서",
+    "재직 증명서",
+    "장학 증명서",
+    "병적 증명서",
+    "졸업(예정) 증명서",
+    "기타 증명서 등"
+  ],
+  "certificate_overview": {
+    "section": "certificate_overview",
+    "title": "증명서 개요",
+    "items": [
+      {
+        "title": "발급대상",
+        "content": ["신촌/국제/미래 캠퍼스 재학생, 재적생 및 졸업생"]
+      },
+      {
+        "title": "발급증명",
+        "content": [
+          "재학, 휴학, 성적, 졸업(예정), 수료, 재적, 장학(비)수혜 증명서 등"
+        ]
+      },
+      {
+        "title": "발급수수료",
+        "content": [
+          "무료: 인터넷즉시출력",
+          "유료: 창구, 자동발급기, 민원우편, 어디서나 민원(주민센터 팩스민원, 정부24)",
+          "발급수수료: 재학생 500원, 졸업생 1,000원 (수수료는 변경될 수 있음)"
+        ]
+      }
+    ]
+  },
+
+  "certificate_methods": {
+    "section": "certificate_methods",
+    "title": "발급 방법",
+
+    "internet_issue": {
+      "title": "인터넷 증명 발급",
+      "content": ["증명 발급 바로가기"]
+    }
+  },
+
+  "instant_issue_steps": {
+    "title": "인터넷 즉시 발급 방법",
+    "steps": [
+      {
+        "step": "STEP.01",
+        "mainDescription": "그린포탈서비스 로그인",
+        "subDescription": ["ID: 학번 / PW: 학사포탈 비밀번호"]
+      },
+      {
+        "step": "STEP.02",
+        "mainDescription": "인터넷증명서 → 플러그인 자동 설치 시 '실행'",
+        "subDescription": []
+      },
+      {
+        "step": "STEP.03",
+        "mainDescription": "개인정보제공 동의(필수)",
+        "subDescription": ["동문 연락처 업데이트 하기(선택)"]
+      },
+      {
+        "step": "STEP.04",
+        "mainDescription": "인터넷즉시발급",
+        "subDescription": []
+      }
+    ]
+  },
+
+  "post_issue_steps": {
+    "title": "우편 수령 신청 방법",
+    "steps": [
+      {
+        "step": "STEP.01",
+        "mainDescription": "그린포탈서비스 로그인",
+        "subDescription": ["ID: 학번 / PW: 학사포탈 비밀번호"]
+      },
+      {
+        "step": "STEP.02",
+        "mainDescription": "인터넷증명서 → 플러그인 자동 설치 시 '실행'",
+        "subDescription": []
+      },
+      {
+        "step": "STEP.03",
+        "mainDescription": "개인정보제공 동의(필수)",
+        "subDescription": ["동문 연락처 업데이트 하기(선택)"]
+      },
+      {
+        "step": "STEP.04",
+        "mainDescription": "우편증명발급",
+        "subDescription": []
+      },
+      {
+        "step": "STEP.05",
+        "mainDescription": "결제",
+        "subDescription": ["신용카드, 이동전화, 계좌이체 중 택1"]
+      }
+    ]
+  },
+
+  "certificate_post_info": {
+    "section": "certificate_post_info",
+    "title": "우편 안내",
+    "items": [
+      "소요시간: 국내(익일특급) 1일, 해외(EMS프리미엄) 미국 기준 3~5일 — 모두 주말·공휴일 제외",
+      "수수료: 증명료 + 우편료",
+      "발송: 전일 신청자에 한하여 오전 11시경 일괄 발송(주말·공휴일 제외)",
+      "우편발송신청 접수 확인: 종합서비스센터 Tel. 02-2123-3200",
+      "해외 도착일 문의: UPS 서울사무소(1588-5027)로 우편번호를 알려주십시오."
+    ]
+  },
+
+  "certificate_error_contact": {
+    "section": "certificate_error_contact",
+    "title": "인터넷증명 발급 오류 문의",
+    "phones": [
+      "02-2123-3200",
+      "02-2123-3202",
+      "02-2123-3203",
+      "02-2123-3204",
+      "02-2123-3205"
+    ]
+  }
+}

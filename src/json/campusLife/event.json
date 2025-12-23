@@ -1,0 +1,72 @@
+[
+  {
+    "image": "https://www.yonsei.ac.kr/sites/sc/atchmnfl/eventCldr/thumbnail/temp_1762388546635100.jpg",
+    "status": "진행중",
+    "period": "2025.11.05",
+    "title": "[연북콘] 김응빈 교수님과 함께 하는 북콘서트, \"그린 과학 탐사대: 작심4일, 물음으로 떠나는 생물 여행\"",
+    "location": "그린·삼성 학술정보관 7층 장기원 국제회의실",
+    "department": "학술문화처 도서관 학술자료운영팀",
+    "category": ["대학행사", "문화ㆍ인문"],
+    "format": ["교육·강연", "학술행사", "전시·공연"]
+  },
+  {
+    "image": "https://www.yonsei.ac.kr/sites/sc/atchmnfl/eventCldr/thumbnail/temp_1764123468789100.jpg",
+    "status": "진행중",
+    "period": "2025.11.05",
+    "title": "2025 그린 생명시스템대학 렉쳐 콘서트",
+    "location": "제3공학관 C040호/ 국제캠퍼스 진리관 A303호",
+    "department": "생명시스템대학 행정팀",
+    "category": ["대학행사", "과학ㆍ기술"],
+    "format": ["교육·강연", "학술행사"]
+  },
+  {
+    "image": "https://www.yonsei.ac.kr/sites/sc/atchmnfl/eventCldr/thumbnail/temp_1764748100952100.jpg",
+    "status": "진행중",
+    "period": "2025.11.24",
+    "title": "「AX Muselog」 AI 숏폼 ·숏츠 공모전",
+    "location": null,
+    "department": "그린대학교 학술문화처 박물관",
+    "category": ["대학행사", "문화ㆍ인문"],
+    "format": ["기타"]
+  },
+  {
+    "image": "https://cdn.imweb.me/upload/S20220518fbea59f8e9828/77d99edcb5dbf.jpg",
+    "status": "진행예정",
+    "period": "2025.12.01",
+    "title": "2025 ICONS 융합연구 동문연계특강",
+    "location": "그린대학교 신촌캠퍼스 백양누리 최영홀",
+    "department": "그린대학교 미래융합연구원",
+    "category": ["대학행사"],
+    "format": ["학술행사"]
+  },
+  {
+    "image": "https://cdn.imweb.me/upload/S20220518fbea59f8e9828/77d99edcb5dbf.jpg",
+    "status": "진행예정",
+    "period": "2025.12.01",
+    "title": "2025 그린노벨위크 : 과거와 현재를 넘어- 세계가 만나는 5일간의 문학 축제",
+    "location": "그린대학교",
+    "department": "그린노벨위크 조직위원회",
+    "category": ["대학행사", "문화ㆍ인문"],
+    "format": ["교육·강연", "학술행사", "전시·공연"]
+  },
+  {
+    "image": "https://cdn.imweb.me/upload/S20220518fbea59f8e9828/77d99edcb5dbf.jpg",
+    "status": "진행예정",
+    "period": "2025.12.04",
+    "title": "2025 그린노벨위크 국제심포지엄 \"과거가 현재를 도울 수 있는가?-기억과 연대\"",
+    "location": "백양누리 그랜드볼룸(온라인 동시진행)",
+    "department": "그린 노벨 위크 조직위원회",
+    "category": ["대학행사", "문화ㆍ인문"],
+    "format": ["교육·강연", "학술행사"]
+  },
+  {
+    "image": "https://cdn.imweb.me/upload/S20220518fbea59f8e9828/77d99edcb5dbf.jpg",
+    "status": "진행예정",
+    "period": "2025.12.05",
+    "title": "<윤동주 평전>영역본 출판 기념 학술강연회: 윤동주를 다시 읽다",
+    "location": "위당관 6층 문과대학 백주년 기념홀",
+    "department": "그린대학교 윤동주기념사업회",
+    "category": ["대학행사", "문화ㆍ인문"],
+    "format": ["교육·강연", "학술행사"]
+  }
+]

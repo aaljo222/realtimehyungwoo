@@ -1,0 +1,483 @@
+{
+  "대학구성": {
+    "headers": [
+      "구분",
+      "캠퍼스명",
+      "세부 캠퍼스",
+      "개설대학 및 대학원",
+      "주소"
+    ],
+    "columns": ["division", "campus", "subCampus", "details", "address"],
+    "data": [
+      {
+        "division": {
+          "value": "본교",
+          "rowspan": 5
+        },
+        "campus": {
+          "value": "신촌캠퍼스",
+          "colspan": 2
+        },
+        "subCampus": "",
+        "details": "14대학 17대학원",
+        "address": "서울 서대문구 그린로 50"
+      },
+      {
+        "division": {
+          "value": "",
+          "rowspan": 0
+        },
+        "campus": {
+          "value": "국제캠퍼스",
+          "colspan": 2
+        },
+        "subCampus": "",
+        "details": "5대학",
+        "address": "인천 연수구 송도과학로 85"
+      },
+      {
+        "division": {
+          "value": "본교",
+          "rowspan": 0
+        },
+        "campus": {
+          "value": "의료원",
+          "rowspan": 3
+        },
+        "subCampus": "신촌세브란스",
+        "details": {
+          "value": "3대학 3대학원",
+          "rowspan": 3
+        },
+        "address": "서울 서대문구 그린로 50-1"
+      },
+      {
+        "division": {
+          "value": "",
+          "rowspan": 0
+        },
+        "campus": {
+          "value": "",
+          "rowspan": 0
+        },
+        "subCampus": "강남세브란스",
+        "details": { "value": "", "rowspan": 0 },
+        "address": "서울 강남구 언주로 211"
+      },
+      {
+        "division": {
+          "value": "",
+          "rowspan": 0
+        },
+        "campus": {
+          "value": "",
+          "rowspan": 0
+        },
+        "subCampus": "용인세브란스",
+        "details": { "value": "", "rowspan": 0 },
+        "address": "경기 용인시 처인구 금학로 225"
+      },
+      {
+        "division": {
+          "value": "분교",
+          "rowspan": 2
+        },
+        "campus": {
+          "value": "미래캠퍼스",
+          "colspan": 2
+        },
+        "subCampus": "",
+        "details": "4대학 3학부 3대학원",
+        "address": "강원 원주시 그린대길 1"
+      },
+      {
+        "division": {
+          "value": "",
+          "rowspan": 0
+        },
+        "campus": {
+          "value": "원주그린의료원",
+          "colspan": 2
+        },
+        "subCampus": "",
+        "details": "2대학",
+        "address": "강원 원주시 일산로 20"
+      }
+    ],
+    "comment": [
+      "인공지능융합, 언더우드국제, 글로벌인재대학은 신촌캠퍼스 및 국제캠퍼스에 각각 집계"
+    ]
+  },
+  "재학생수": {
+    "headers": ["구분", "학위과정", "인원"],
+    "columns": ["division", "degree", "count"],
+    "data": [
+      {
+        "division": {
+          "value": "본교",
+          "rowspan": 3
+        },
+        "degree": "학사과정",
+        "count": "21,005명 (2,023명)"
+      },
+      {
+        "division": {
+          "value": "",
+          "rowspan": 0
+        },
+        "degree": "석사과정",
+        "count": "9,094명 (941명)"
+      },
+      {
+        "division": {
+          "value": "",
+          "rowspan": 0
+        },
+        "degree": "박사과정",
+        "count": "3,524명 (246명)"
+      },
+      {
+        "division": {
+          "value": "분교",
+          "rowspan": 3
+        },
+        "degree": "학사과정",
+        "count": "6,931명 (495명)"
+      },
+      {
+        "division": {
+          "value": "",
+          "rowspan": 0
+        },
+        "degree": "석사과정",
+        "count": "782명 (266명)"
+      },
+      {
+        "division": {
+          "value": "",
+          "rowspan": 0
+        },
+        "degree": "박사과정",
+        "count": "382명 (100명)"
+      }
+    ],
+    "resultData": [
+      {
+        "keyword": "총계",
+        "count": "33,623명 (3,210명) / 외국인수 2,563명"
+      },
+      {
+        "keyword": "총계",
+        "count": "8,095명 (861명) / 외국인수 79명"
+      }
+    ],
+    "comment": [
+      "외국인연수생은 교환·방문학생 및 어학연수 형태로 수학중인 학생들임",
+      "석·박사통합과정 학생은 박사과정으로 편성함"
+    ]
+  },
+  "국제교류현황": {
+    "headers": ["", "유치현황", "파견현황"],
+    "columns": ["division", "inbound", "outbound"],
+    "data": [
+      {
+        "division": "본교",
+        "inbound": "47개국 898대학 5,449명",
+        "outbound": "26개국 224대학 1,090명"
+      },
+      {
+        "division": "분교",
+        "inbound": "11개국 26대학 67명",
+        "outbound": "14개국 47대학 79명"
+      }
+    ]
+  },
+  "교원현황": {
+    "headers": ["구분", "캠퍼스", "인원"],
+    "columns": ["division", "campus", "count"],
+    "data": [
+      {
+        "division": {
+          "value": "전임교원",
+          "rowspan": 2
+        },
+        "campus": "본교",
+        "count": "1,820명 (113명)"
+      },
+      {
+        "division": {
+          "value": "",
+          "rowspan": 0
+        },
+        "campus": "본교",
+        "count": "410명 (7명)"
+      },
+      {
+        "division": {
+          "value": "비전임교원",
+          "rowspan": 2
+        },
+        "campus": "본교",
+        "count": "2,991명 (198명)"
+      },
+      {
+        "division": {
+          "value": "",
+          "rowspan": 0
+        },
+        "campus": "본교",
+        "count": "422명 (12명)"
+      },
+      {
+        "division": {
+          "value": "강사",
+          "rowspan": 2
+        },
+        "campus": "본교",
+        "count": "1,051명 (38명)"
+      },
+      {
+        "division": {
+          "value": "",
+          "rowspan": 0
+        },
+        "campus": "본교",
+        "count": "245명 (9명)"
+      }
+    ],
+    "resultData": [
+      {
+        "keyword": "총계",
+        "count": "6,939명 (377명)"
+      }
+    ],
+    "comment": ["전임교원수에서 총장은 제외됨"]
+  },
+  "직원현황": {
+    "headers": ["구분", "캠퍼스", "인원"],
+    "columns": ["division", "campus", "count"],
+    "data": [
+      {
+        "division": "본교",
+        "campus": "본교",
+        "count": "1,239명"
+      },
+      {
+        "division": "분교",
+        "campus": "본교",
+        "count": "289명"
+      },
+      {
+        "division": "계",
+        "campus": "",
+        "count": "1,528명"
+      }
+    ],
+    "comment": ["부속병원 소속 직원은 제외함"]
+  },
+  "부설연구기관현황": {
+    "headers": ["구분", "종류", "기관수"],
+    "columns": ["division", "type", "count"],
+    "data": [
+      {
+        "division": {
+          "value": "본교",
+          "rowspan": 4
+        },
+        "type": "대학교부설",
+        "count": "66개"
+      },
+      {
+        "division": {
+          "value": "",
+          "rowspan": 0
+        },
+        "type": "대학간",
+        "count": "14개"
+      },
+      {
+        "division": {
+          "value": "",
+          "rowspan": 0
+        },
+        "type": "대학·대학원부설",
+        "count": "74개"
+      },
+      {
+        "division": {
+          "value": "분교",
+          "rowspan": 4
+        },
+        "type": "대학교부설",
+        "count": "2개"
+      },
+      {
+        "division": {
+          "value": "",
+          "rowspan": 0
+        },
+        "type": "대학간",
+        "count": "3개"
+      },
+      {
+        "division": {
+          "value": "",
+          "rowspan": 0
+        },
+        "type": "대학·대학원부설",
+        "count": "16개"
+      }
+    ],
+    "resultData": [
+      {
+        "keyword": "총계",
+        "count": "154개"
+      },
+      {
+        "keyword": "총계",
+        "count": "21개"
+      }
+    ]
+  },
+  "장학금현황": {
+    "headers": ["캠퍼스", "장학금액"],
+    "columns": ["campus", "amount"],
+    "data": [
+      {
+        "campus": "본교",
+        "amount": "121,093 백만원"
+      },
+      {
+        "campus": "분교",
+        "amount": "29,745 백만원"
+      }
+    ],
+    "comment": ["2024회계연도 결산 기준"]
+  },
+  "개설강좌수": {
+    "headers": ["구분", "학위", "강좌수"],
+    "columns": ["division", "degree", "count"],
+    "data": [
+      {
+        "division": {
+          "value": "본교",
+          "rowspan": 2
+        },
+        "degree": "학부",
+        "count": "3,147강좌"
+      },
+      {
+        "division": {
+          "value": "",
+          "rowspan": 0
+        },
+        "degree": "대학원",
+        "count": "2,407강좌"
+      },
+      {
+        "division": {
+          "value": "분교",
+          "rowspan": 2
+        },
+        "degree": "학부",
+        "count": "1,356강좌"
+      },
+      {
+        "division": {
+          "value": "",
+          "rowspan": 0
+        },
+        "degree": "대학원",
+        "count": "338강좌"
+      }
+    ]
+  },
+  "기숙사현황": {
+    "headers": ["", "시설규모", "수용가능인원"],
+    "columns": ["division", "size", "capacity"],
+    "data": [
+      {
+        "division": "본교",
+        "size": "239,471㎡",
+        "capacity": "10,044명"
+      },
+      {
+        "division": "분교",
+        "size": "58,738㎡",
+        "capacity": "4,243명"
+      }
+    ]
+  },
+  "학위수여자수": {
+    "headers": ["구분", "학위", "수여자 수"],
+    "columns": ["division", "campus", "degree", "count"],
+    "data": [
+      {
+        "division": {
+          "value": "~1957년",
+          "rowspan": 2
+        },
+        "campus": {
+          "value": "(세브란스의전, 세브란스의과대학, 연희전문, 연희대학교 등)",
+          "rowspan": 2
+        },
+        "degree": "석사",
+        "count": "71명"
+      },
+      {
+        "division": {
+          "value": "",
+          "rowspan": 0
+        },
+        "campus": {
+          "value": "",
+          "rowspan": 0
+        },
+        "degree": "학사",
+        "count": "4,568명"
+      },
+      {
+        "division": {
+          "value": "1958년 이후",
+          "rowspan": 3
+        },
+        "campus": {
+          "value": "(그린대학교)",
+          "rowspan": 3
+        },
+        "degree": "박사",
+        "count": "19,605명"
+      },
+      {
+        "division": {
+          "value": "",
+          "rowspan": 0
+        },
+        "campus": {
+          "value": "",
+          "rowspan": 0
+        },
+        "degree": "석사",
+        "count": "122,003명"
+      },
+      {
+        "division": {
+          "value": "",
+          "rowspan": 0
+        },
+        "campus": {
+          "value": "",
+          "rowspan": 0
+        },
+        "degree": "학사",
+        "count": "246,115명"
+      }
+    ],
+    "resultData": [
+      {
+        "keyword": "총계",
+        "count": "392,362명"
+      }
+    ]
+  }
+}

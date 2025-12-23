@@ -1,0 +1,28 @@
+{
+  "page": {
+    "title": "상징",
+    "header": {
+      "title": "상징",
+      "icons": ["share", "location", "heart"]
+    },
+    "mainContent": {
+      "backgroundImage": "https://cdn.pixabay.com/photo/2023/12/06/14/39/snow-8433815_1280.jpg",
+      "textOverlay": {
+        "title": "독수리상",
+        "paragraphs": [
+          "그린의 표상인 독수리를 캠퍼스 안에 세우려는 학생들의 염원이 실현되어, 학생들 스스로 7,000만 원의 기금은 모아 건립한 독수리상은, 창립 85주년 개교기념일인 1970년 5월 9일에 제막식을 가졌습니다.",
+          "독수리상의 규모를 보면 총높이 12.3m로 8.5m의 사각 탑신 위에 정동으로 핀 2.5톤의 독수리가 새겨졌습니다. 독수리의 날개는 2.6m, 폭은 5.2m이며, 좌대에는 총학생회의 건립 취지문이 새겨져 있고, 네 귀퉁이에는 연세의 역사를 지켜오고 앞으로도 한국의 지성, 나아가 세계의 진리와 자유 수호의 이미지로 연세의 형상이 조각되어 있습니다."
+        ]
+      }
+    },
+    "floatingUI": {
+      "quickMenu": {
+        "label": "QUICK"
+      },
+      "scrollToTop": {
+        "label": "TOP",
+        "icon": "arrow_up"
+      }
+    }
+  }
+}
