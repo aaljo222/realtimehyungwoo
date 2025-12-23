@@ -1,38 +1,24 @@
-# Node.js dependencies
-node_modules/
-
-# Vite build output
-/dist/
-
-# Vercel deployment environment
-.vercel/
-
-# System files
-.DS_Store
-Thumbs.db
-
-# Log files
+# Logs
+logs
+*.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
 
-# Environment variables (if you're using dotenv for secrets)
-.env
-.env.local
-.env.*.local
+node_modules
+dist
+dist-ssr
+*.local
 
-# IDE/Editor-specific files
-.vscode/
-.idea/
-
-# macOS specific files
-*.swp
-
-# Tailwind CSS cache
-.tailwind-cache/
-
-# Jest coverage directory
-/coverage/
-
-# Next.js build files (if using Next.js in future)
-.next/
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
