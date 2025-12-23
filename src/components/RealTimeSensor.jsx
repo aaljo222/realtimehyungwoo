@@ -8,14 +8,13 @@ import {
   Legend,
   ResponsiveContainer,
 } from "recharts";
-import mqtt from "mqtt";
+import { connect } from "mqtt/dist/mqtt.min.js";
 
 export default function RealTimeSensor() {
   const [data, setData] = useState([]);
 
   useEffect(() => {
-    // HiveMQ Cloud WebSocket 연결
-    const client = mqtt.connect(
+    const client = connect(
       "wss://4a5fc65629c14cddb65aee8dbbe0eeee.s1.eu.hivemq.cloud:8884/mqtt",
       {
         username: "green1234",
@@ -24,15 +23,15 @@ export default function RealTimeSensor() {
     );
 
     client.on("connect", () => {
-      console.log("MQTT connected");
-      client.subscribe("jaeseok"); // Arduino에서 publish하는 토픽
+      console.log("✅ MQTT connected");
+      client.subscribe("jaeseok");
     });
 
     client.on("message", (topic, message) => {
       try {
-        const msg = JSON.parse(message.toString()); // Arduino에서 JSON 문자열로 보내는 경우
+        const msg = JSON.parse(message.toString());
         msg.created_at = new Date().toLocaleTimeString();
-        setData((prev) => [...prev.slice(-49), msg]); // 최신 50개만 유지
+        setData((prev) => [...prev.slice(-49), msg]);
       } catch (e) {
         console.error("JSON parse error:", e);
       }
