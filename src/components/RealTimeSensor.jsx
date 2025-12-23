@@ -8,13 +8,13 @@ import {
   Legend,
   ResponsiveContainer,
 } from "recharts";
-import { connect } from "mqtt/dist/mqtt.min.js";
+import mqtt from "mqtt/browser";
 
 export default function RealTimeSensor() {
   const [data, setData] = useState([]);
 
   useEffect(() => {
-    const client = connect(
+    const client = mqtt.connect(
       "wss://4a5fc65629c14cddb65aee8dbbe0eeee.s1.eu.hivemq.cloud:8884/mqtt",
       {
         username: "green1234",
